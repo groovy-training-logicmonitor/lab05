@@ -1,7 +1,6 @@
 # Lab05: Generics
 
-The goal of this laboratory exercise is to learn more about the workflow involving IntelliJ for code editing, run environments and Git/GitHub for version control. Additionally, this lab also includes the concept of functions.
-
+The goal of this laboratory exercise is to learn more about Generics in both Groovy and Java. The goal of Generics is to maintain the DRY (Don't Repeat Yourself) concept when programming.
 ## Step 1. Cloning this laboratory
 
 First, we need to get this project onto your computer. We do this using the `git clone` command. In the Terminal app type the following command
@@ -48,7 +47,7 @@ This function is only slightly differnt from `filter`. It returns only those obj
 
 One major difference in this method is that there is a constraint on `E`. The method declaration states that `E` must be a class that immplents the `Comparable` interface (i.e. it must have a method called `compareTo`). See this [document](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) for more information on what `compareTo` does and what it returns. 
 
-### `filterLessThan'
+### `filterLessThan`
 
 This function is almost exactly the same as 'filterGreaterThan'. It only differs in that it filters out values that are less than `filter`.
 ### Extra street cred (optional)
